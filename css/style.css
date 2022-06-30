@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-image:url(/img/descarga.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+}
+p.natural::first-line {
+color: chocolate;
+font-variant: small-caps;
+}
+p::first-letter {
+    color: red;
+    font-variant: small-caps;
+}
+
+p::first-line {
+    color: greenyellow;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+p.natural::first-letter {
+    color: blue;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+p.animal::after {
+content: "normal todo";
+}
+p.animal::before {
+    content: "todo normal";
+}
+p.animal::backdrop {
+    content: "todo normal";
+}
+
+
+
+
+
+
